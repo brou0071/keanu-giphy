@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
 
 function initFetch() {
     const api = '0wtnmFLgfcLPSmwnUYWUo8uA1wNdz3sn';
-    const url = `http://api.giphy.com/v1/gifs/search?api_key=${api}&q=${input.value}-keanu`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${input.value}-keanu`;
     let out = document.querySelector('#output');
 
     fetch(url)
