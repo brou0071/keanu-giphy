@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;;
+    margin: 0;
+}
+body{
+    background-color: greenyellow;
 }
 #gif-form{
     position: absolute;
@@ -23,8 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: greenyellow;
-    background: url('https://api.giphy.com/v1/gifs/search?api_key=0wtnmFLgfcLPSmwnUYWUo8uA1wNdz3sn&q=car-keanu');
+    background: url('https://media1.giphy.com/media/RiQNOqLF7MGI4xIWTG/giphy.gif?cid=64e183b0fz9ihyd0sdezs4o7tui7kx3ftym9flrvn9bld89w&rid=giphy.gif');
 }
 .element{
     width: 80vw;
