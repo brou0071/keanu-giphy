@@ -23,11 +23,10 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: url('https://media1.giphy.com/media/RiQNOqLF7MGI4xIWTG/giphy.gif?cid=64e183b0fz9ihyd0sdezs4o7tui7kx3ftym9flrvn9bld89w&rid=giphy.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background: url('https://media1.giphy.com/media/RiQNOqLF7MGI4xIWTG/giphy.gif?cid=64e183b0fz9ihyd0sdezs4o7tui7kx3ftym9flrvn9bld89w&rid=giphy.gif');
-}
+    background-position: center;}
 .element{
     width: 80vw;
 }
