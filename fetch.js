@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
 
 function initFetch() {
     const api = '0wtnmFLgfcLPSmwnUYWUo8uA1wNdz3sn';
-    const url = `https://api.giphy.com/v1/gifs/search?api_key=${api}&q=${input.value}-keanu`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=${api}&limit=10&q=${input.value}-keanu`;
     let out = document.querySelector('#output');
 
     fetch(url)
@@ -30,7 +30,7 @@ function initFetch() {
         // })
         let results = content.data.length;
         console.log(results);
-        let img = content.data[0].images.downsized.url;
+        let img = content.data[(Math.floor(Math.random() * 10))].images.downsized.url;
         out.style.backgroundImage = `url("${img}")`;
     })
     .catch( (err) =>{

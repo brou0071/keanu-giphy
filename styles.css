@@ -20,9 +20,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-color: greenyellow;
+    background: url('https://api.giphy.com/v1/gifs/search?api_key=0wtnmFLgfcLPSmwnUYWUo8uA1wNdz3sn&q=car-keanu');
 }
 .element{
     width: 80vw;
