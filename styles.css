@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;;
+}
+#gif-form{
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+}
+#gif-text{
+    font-size: 4rem;
+    padding:5px;
+    width: 80vw;
+    color: black;
+    border: 2px solid black;
+}
+#output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-color: greenyellow;
+}
+.element{
+    width: 80vw;
+}
+.element img {
+    width: 150px;
+    height: 150px;
+}
